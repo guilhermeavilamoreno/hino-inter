@@ -71,6 +71,8 @@ section.imagem1 > p {
 }
 
 section#img1{
+    max-width: 1300px;
+    min-width: 200px;
     background-image: url("../imagens/logo-inter-branco.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,12 +91,16 @@ section#img2{
 }
 
 div.hino{
-    
-    height: 0px;
+    background-color: rgba(255, 28, 28, 0.664);;
+    height: 58px;
+    padding: 10px;
     color: black;
     font-weight: bolder;
     text-align: center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.699);
 }
+
+
 
 
 footer {
